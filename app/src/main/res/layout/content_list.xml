@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rehmanh.practice.reviewbot.ListActivity"
+    tools:showIn="@layout/activity_list"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/list_of_movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </ListView>
+
+    <TextView
+        android:id="@+id/empty_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="inherit"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/empty_list_view_string">
+
+    </TextView>
+
+</LinearLayout>
+

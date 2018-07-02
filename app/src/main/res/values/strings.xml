@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ReviewBot</string>
+    <string name="review_description">Enter your movie review below. ReviewBot will analyze your sentiments and assign a score for you.</string>
+    <string name="review_hint">Enter your movie review here…</string>
+    <string name="analyze_button_text">Analyze</string>
+    <string name="clear_button_text">Clear</string>
+
+    <string name="show_file_text">Show File</string>
+
+    <string name="proceed_button_text">Go</string>
+    <string name="about_the_app_text">Welcome to ReviewBot! \n \nEnter a movie review. ReviewBot will then analyze your movie review and give you a score based on how it thinks you felt about the movie.  </string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="empty_list_view_string">To add reviews, tap on the add button below.</string>
+
+
+</resources>
